@@ -104,8 +104,8 @@ jalan("\033[1;93m   ┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈
 jalan("\033[1;93m   ┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈")
 print "\033[1;93m♡─────╱▔▔▔▔┊┊┊┊▔▔▔▔╲───────♡\033[1;96mLogin Raza\033[1;95m♡╰──────────•◈•──────────╯♡"
 
-CorrectUsername = "Raza"
-CorrectPassword = "Raza"
+CorrectUsername = "Mohd"
+CorrectPassword = "Nadeem"
 
 loop = 'true'
 while (loop == 'true'):
@@ -118,10 +118,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UC9je9oH-o4qUsp7NkXn16yQ')
+            os.system('xdg-open https://www.youtube.com/channel/UC7lJ3AWI2GCbCwqtCn6cLiQ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UC9je9oH-o4qUsp7NkXn16yQ')
+        os.system('xdg-open https://www.youtube.com/channel/UC7lJ3AWI2GCbCwqtCn6cLiQ')
 
 def login():
 	os.system('clear')
